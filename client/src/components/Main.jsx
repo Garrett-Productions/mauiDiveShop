@@ -1,11 +1,12 @@
 import React from 'react'
 import Typed from 'react-typed'
-import garrett_edit from '../assets/garrett_edit'
+// import garrett_edit from '../assets/garrett_edit.jpg'
+// background: `url(${garrett_edit})`,
 
 const Main = () => {
   return (
     <div className='text-white fit-image '>
-        <div style={{background: `url(${garrett_edit})`, backgroundSize:'cover', backgroundPosition:'center'}} className='mt-[-15px] h-screen mx-auto text-center flex flex-col justify-center'>
+        <div style={{ backgroundSize:'cover', backgroundPosition:'center'}} className='mt-[-15px] h-screen mx-auto text-center flex flex-col justify-center'>
             <p className='text-white font-bold p-2'>
                 Dive With Kaanapali Divers
                 </p>
