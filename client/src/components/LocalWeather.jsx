@@ -1,5 +1,5 @@
 import React from 'react'
-// import weather from '../assets/weather_api_holder.jpg '
+// import weather from '../assets/weather_api_holder'
 
 const LocalWeather = () => {
   return (
