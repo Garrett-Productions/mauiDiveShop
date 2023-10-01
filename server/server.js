@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 
 require('./config/mongoose.config'); 
 app.use(cors())  
-// require('./routes/diveShop.routes')(app);  
+require('./routes/diveShop.routes')(app);  
 
 
 app.listen(port, ()=> console.log(`listening at port: ${port}`));
