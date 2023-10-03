@@ -12,7 +12,7 @@ function App() {
       <Main />
       <DisplayAll />
       <LocalWeather />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
