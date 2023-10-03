@@ -14,7 +14,7 @@ const LocalWeather = () => {
                 </p>
                 <button className=' bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 px-6 py-3'>Current Weather</button>
             </div>
-        </div>
+        </div><hr/>
     </div>
   )
 }

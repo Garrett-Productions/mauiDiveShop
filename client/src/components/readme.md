@@ -1,0 +1,1 @@
+1. Can I include a picture within my model?
