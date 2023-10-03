@@ -6,6 +6,10 @@ const diveShopSchema = new mongoose.Schema({
         required: [ true, "Name is required"],
         minLength: [3, 'Name must be 3 characters or longer']
     },
+    file: {
+        data: Buffer,
+        contentType: String,
+    },
     type: {
         type: String,
         required: [true, "Type is required"],
