@@ -1,11 +1,11 @@
 import React from 'react'
-// import weather from '../assets/weather_api_holder.jpg'
+import weather from './weather_api_holder.jpg'
 
 const LocalWeather = () => {
   return (
     <div className='w-full bg-white py-4 '>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-            {/* <img className='w-[500px] my-5' src={weather} alt="computer"  /> */}
+            <img className='w-[500px] my-5' src={weather} alt="computer"  />
             <div className='flex flex-col justify-center'>
                 <p className='text-[#00df9a] uppercase font-bold'>Kaanapali Sunshine Forecast</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Catch a Tan </h1>
